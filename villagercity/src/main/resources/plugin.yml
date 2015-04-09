@@ -1,0 +1,9 @@
+name: Villagercity
+main: io.github.troydesante.villagercity
+version: ${version}
+commands:
+   villagercity:
+      description: Het VillagerCity command!
+      usage: /<command>
+      permission: villagercity.villagercity
+      permission-message: Je hebt geen permissie voor /villagercity
