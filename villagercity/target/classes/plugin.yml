@@ -1,9 +1,14 @@
-name: Villagercity
+name: VillagerCity
 main: io.github.troydesante.villagercity
-version: ${version}
+version: 0.0.1 - SNAPSHOT
 commands:
    villagercity:
-      description: Het VillagerCity command!
+      description: VillagerCity Plugin V0.0.1 - SNAPSHOT
       usage: /<command>
       permission: villagercity.villagercity
-      permission-message: Je hebt geen permissie voor /villagercity
+      permission-message: Je hebt geen toestemming om dit te gebruiken!
+permissions:
+    villagercity.*:
+        description: Geeft toegang tot alle VillagerCity commands.
+    villagercity.villagercity:
+        description: Geeft toegang tot de /villagercity command.
